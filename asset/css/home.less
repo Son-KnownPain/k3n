@@ -41,6 +41,7 @@
 
 #content {
     margin-top: var(--header-height);
+    overflow: hidden;
 }
 
 #landing {
@@ -58,7 +59,8 @@
             color: var(--base-white);
             font-size: 28px;
             color: var(--text-color-500);
-            margin-top: 16px;
+            margin-top: 24px;
+            margin-bottom: 24px;
         }
         .btns-gr {
             display: flex;
@@ -201,6 +203,20 @@
         padding: 120px 0;
         color: var(--base-white);
 
+        .checked-box {
+            margin-top: 44px;
+            margin-bottom: 0;
+
+            .item {
+                font-size: 20px;
+
+                i {
+                    color: var(--success-success-300);
+                    margin-right: 12px;
+                }
+            }
+        }
+
         .serv-content {
             max-width: 730px;
             margin-left: 32px;
@@ -231,19 +247,6 @@
             
                 i {
                     margin-left: 12px;
-                }
-            }
-            .checked-box {
-                margin-top: 44px;
-                margin-bottom: 0;
-
-                .item {
-                    font-size: 20px;
-
-                    i {
-                        color: var(--success-success-300);
-                        margin-right: 12px;
-                    }
                 }
             }
         }
@@ -285,6 +288,22 @@
 
     .slider-content-box {
         margin-top: 28px;
+
+        .smore-mb {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 4px 24px;
+
+            a {
+                text-decoration: none;
+                color: var(--base-white);
+
+                i {
+                    margin-left: 6px;
+                }
+            }
+        }
 
         #features-slider {
             position: relative;
@@ -331,7 +350,7 @@
                 margin: 0 12px;
 
                 img {
-                    padding: 24px 32px;
+                    padding: 0 32px;
                 }
 
                 .left-content {
@@ -407,7 +426,8 @@
                         }
     
                         h3 {
-                            margin-bottom: 0;
+                            margin-top: 12px;
+                            margin-bottom: 6px;
     
                             span {
                                 background: linear-gradient(135deg, #F23581 0%, rgba(130, 235, 255, 0.63) 100%);
@@ -444,6 +464,7 @@
                         color: var(--card-card-800);
                         margin-bottom: 0;
                         line-height: 1;
+                        word-wrap: break-word;
                     }
                 }
             }
@@ -567,7 +588,7 @@
             font-family: inherit;
 
             span {
-                display: block;
+                display: inline-block;
                 font-family: inherit;
                 background: linear-gradient(135deg, #F23581 0%, #82EBFF 100%);
                 -webkit-background-clip: text;

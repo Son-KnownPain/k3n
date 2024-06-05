@@ -42,3 +42,39 @@ body {
     font-family: 'SF Pro Display';
     font-optical-sizing: auto;
 }
+
+
+/* Only PC, Laptop */
+@media (min-width: 1024.1px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+}
+
+/* From tablet to higher */
+@media (min-width: 740px) {
+    .hide-from-tablet-higher {
+        display: none !important;
+    }
+}
+
+/* Mobile and Tablet */
+@media (max-width: 1024px) {
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .hide-on-tablet {
+        display: none !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739.9px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}

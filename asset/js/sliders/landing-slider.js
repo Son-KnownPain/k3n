@@ -17,9 +17,21 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 740,
+                breakpoint: 880,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 760,
                 settings: {
                     slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 420,
+                settings: {
+                    slidesToShow: 1,
                 }
             },
         ],
@@ -36,6 +48,14 @@ $(document).ready(function() {
         arrows: false,
         dots: true,
         centerMode: true,
+        responsive: [
+            {
+                breakpoint: 420,
+                settings: {
+                    centerMode: false,
+                }
+            },
+        ],
     })
 
     const bsContainerWidth = document.querySelector('.container').offsetWidth;
