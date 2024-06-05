@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url("../fonts/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+}
+
+:root {
+    --header-height: 90px;
+
+    --base-white: #fff;
+    --base-black: #000;
+
+    --text-color-500: #A7A7A7;
+    --text-color-600: #919191;
+    --text-color-700: #7B7B7B;
+    --text-color-900: #4F4F4F;
+    --text-color-1000: #393939;
+
+    --card-card-800: #464E63;
+
+    --secondary-secondary: #82EBFF;
+
+    --primary-primary: #F23581;
+
+    --success-success-300: #31B825;
+
+    --warning-warning: #FF9519;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #272727;
+    /* background: url('../images/bg.jpg') no-repeat 0;
+    background-size: cover; */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display';
+    font-optical-sizing: auto;
+}
