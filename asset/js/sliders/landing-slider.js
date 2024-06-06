@@ -3,6 +3,8 @@ $(document).ready(function() {
     const slider = $('#partners-slider');
 
     slider.slick({
+        autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 5,
         slidesToScroll: 1,
         prevArrow: false,

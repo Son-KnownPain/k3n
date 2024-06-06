@@ -69,7 +69,51 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/1.png" alt="Img">
+                                    <div class="icons-box">
+                                        <div class="item">
+                                            <i class="fa-solid fa-bolt"></i>
+                                            80
+                                        </div>
+                                        <div class="spr"></div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-star"></i>
+                                            3.5
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-body">
+                                    <h3>
+                                        Declan Rice
+                                        <i class="fa-regular fa-circle-check icon"></i>
+                                    </h3>
+                                    <p class="x-followers">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                        85.7K followers
+                                    </p>
+                                    <p class="completed-jobs">
+                                        Completed jobs
+                                        <span>23</span>
+                                    </p>
+                                    <div class="action-gr">
+                                        <div class="acitem" style="background-color: #FFD7F4; color: var(--primary-primary);">
+                                            SocialFi
+                                        </div>
+                                        <div class="acitem" style="background-color: #F6CCFF; color: var(--base-black);">
+                                            Ethereum
+                                        </div>
+                                        <div class="acitem" style="background-color: #EBFCFF; color: #3EAABE;">
+                                            Researcher
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="./asset/images/partners/2.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -113,7 +157,7 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/3.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -128,7 +172,7 @@
                                 </div>
                                 <div class="item-body">
                                     <h3>
-                                        Ben White
+                                        Bukayo Saka
                                         <i class="fa-regular fa-circle-check icon"></i>
                                     </h3>
                                     <p class="x-followers">
@@ -157,7 +201,7 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/4.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -172,7 +216,7 @@
                                 </div>
                                 <div class="item-body">
                                     <h3>
-                                        Ben White
+                                        Martin Odegaard
                                         <i class="fa-regular fa-circle-check icon"></i>
                                     </h3>
                                     <p class="x-followers">
@@ -201,7 +245,7 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/5.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -216,7 +260,7 @@
                                 </div>
                                 <div class="item-body">
                                     <h3>
-                                        Ben White
+                                        Gabriel Jesus
                                         <i class="fa-regular fa-circle-check icon"></i>
                                     </h3>
                                     <p class="x-followers">
@@ -245,7 +289,7 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/6.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -260,7 +304,7 @@
                                 </div>
                                 <div class="item-body">
                                     <h3>
-                                        Ben White
+                                        Gabriel Martinelli
                                         <i class="fa-regular fa-circle-check icon"></i>
                                     </h3>
                                     <p class="x-followers">
@@ -289,7 +333,7 @@
                         <div>
                             <div class="slider-item">
                                 <div class="img-box">
-                                    <img src="./asset/images/partners/image.png" alt="Img">
+                                    <img src="./asset/images/partners/7.png" alt="Img">
                                     <div class="icons-box">
                                         <div class="item">
                                             <i class="fa-solid fa-bolt"></i>
@@ -304,7 +348,7 @@
                                 </div>
                                 <div class="item-body">
                                     <h3>
-                                        Ben White
+                                        Kaiz Haverts
                                         <i class="fa-regular fa-circle-check icon"></i>
                                     </h3>
                                     <p class="x-followers">
@@ -828,13 +872,16 @@
 
     <script>
         $(document).ready(function() {
-            window.onscroll = () => {
             if (window.scrollY > 0) {
                 header.classList.add('bg')
-            } else {
-                header.classList.remove('bg')
             }
-        }
+            window.onscroll = () => {
+                if (window.scrollY > 0) {
+                    header.classList.add('bg')
+                } else {
+                    header.classList.remove('bg')
+                }
+            }
         })
     </script>
 </body>
