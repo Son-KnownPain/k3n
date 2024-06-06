@@ -658,13 +658,13 @@
                         <div class="col-xl-7 col-lg-8 col-md-8">
                             <div class="timeline-wrapper">
                                 <ul>
-                                    <li style="height: 660px;">
+                                    <li style="height: 660px; background-image: url('./asset/images/bgs/rm1.png');">
 
                                     </li>
-                                    <li style="height: 340px;">
+                                    <li style="height: 340px; background-image: url('./asset/images/bgs/rm2.png');">
 
                                     </li>
-                                    <li style="height: 430px;">
+                                    <li style="height: 430px; background-image: url('./asset/images/bgs/rm2.png');">
 
                                     </li>
                                 </ul>
@@ -825,5 +825,17 @@
 
     <!-- Slider Implement -->
     <script src="./asset/js/sliders/landing-slider.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            window.onscroll = () => {
+            if (window.scrollY > 0) {
+                header.classList.add('bg')
+            } else {
+                header.classList.remove('bg')
+            }
+        }
+        })
+    </script>
 </body>
 </html>
